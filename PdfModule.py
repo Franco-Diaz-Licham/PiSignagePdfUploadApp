@@ -1,4 +1,3 @@
-
 import json
 import requests
 from PyPDF2 import PdfFileReader, PdfFileWriter

@@ -2,13 +2,14 @@ from rich import print
 from PiSignageApiModule import pi_signage
 from PdfModule import pdf
 
-pi_signage = pi_signage()
+# split files
 pdf = pdf()
+files = pdf.pdf_splitter()
 
-token = pi_signage.get_token()
-number_pages = pdf.pdf_splitter()
-
-r1 = pi_signage.upload_files(number_pages)
-r2 = pi_signage.update_playlist(number_pages)
+# deploy to PiSignage
+pi_signage = pi_signage()
+pi_signage.get_token()
+r1 = pi_signage.upload_files(files)
+r2 = pi_signage.update_playlist(files)
 r3 = pi_signage.deploy_playlist()
 r4 = pi_signage.log_out()
