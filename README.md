@@ -1,7 +1,7 @@
 # Description
 The Pi Signage Pdf Uploader is a small application which solved the need for a user to manually split pdf files, log to PiSignage website, upload the files, 
 update the playlists and then deploy the changes to Raspberry Pis running the piSignage image. A menial task that we faced everyday at work which now is automated.
-We have this integrated with a program which saves and pulls files saved to an online folder (e.g. onedrive), and have this application running on task Scheduler.
+We have this integrated with a program which saves and pulls files saved to an online folder (e.g. onedrive), and have this application running on task scheduler.
 
 The steps are as follows:
 * Step 1: obtain access token from si_signage server
