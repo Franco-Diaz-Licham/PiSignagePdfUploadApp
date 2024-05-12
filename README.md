@@ -13,7 +13,8 @@ The steps are as follows:
 
 MORE INFO: pi signage doccument on APIs are found:  https://piathome.com/apidocs/
 
-# Libraries use in the project:
+# Libraries:
+The librabries used in the project include:
 * json -- handles json encoding and decoding for payload build
 * requests -- handles API compiling and calling
 * PyPDF2 -- handles pdf processes
