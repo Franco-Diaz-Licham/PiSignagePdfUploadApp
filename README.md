@@ -5,13 +5,13 @@ We have this integrated with a program which saves and pulls files saved to an o
 
 The steps are as follows:
 * Step 1: obtain access token from si_signage server
-* Step 2: split the received daysheet into the appropriate number of sheets
+* Step 2: split the received file into the appropriate number of sheets
 * Step 3: upload these pdfs into the pi_signage server
 * step 4: update the current playlist for the daysheet with these new assets
 * step 5: deploy the new updated playlist to the two pis
 * Step 7: logout of the server
 
-MORE INFO: pi signage doccument on APIs are found:  https://piathome.com/apidocs/
+ MORE INFO: PiSignage doccumentation on APIs are found: https://piathome.com/apidocs/ 
 
 # Libraries:
 The librabries used in the project include:
